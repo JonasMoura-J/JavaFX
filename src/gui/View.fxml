@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="gui.ViewController">
    <children>
-      <Button layoutX="169.0" layoutY="212.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn" layoutX="169.0" layoutY="212.0" mnemonicParsing="false" onAction="#onBtnAction" text="Button" />
       <Label layoutX="161.0" layoutY="185.0" text="Clique aqui!" />
    </children>
 </AnchorPane>
